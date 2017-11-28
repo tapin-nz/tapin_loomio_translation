@@ -1,0 +1,34 @@
+en:
+  decision_tools_card:
+    title: Facilitation tools
+  memberships_page:
+    coordinator_label: 'Administrator'
+    messages:
+      make_admin_success: '{{name}} is now a administrator'
+      remove_admin_success: '{{name}} is no longer a administrator'
+    remove_admin_from_self:
+      question: 'Are you sure you no longer want to be a administrator?'
+
+  memberships_panel:
+    add_coordinator: Make administrator
+    remove_coordinator: Demote administrator
+
+  only_coordinator_modal:
+    aria_label: 'Unable to deactivate account'
+    explanation: 'A group must have at least one administrator. You are the only administrator of the following groups:'
+    instructions: 'In order to deactivate your account, you need to visit each of the groups listed above and either make someone else an administrator, or deactivate the group.'
+
+  notifications:
+    new_coordinator: "<strong>{{name}}</strong> made you an administrator of <strong>{{title}}</strong>"
+
+  group_page:
+    thread_list:
+      empty:
+        membership_is_invitation_by_admin_only: 'To join this group you need to be invited by an administrator.'
+
+  description_card:
+    placeholder: 'Groups administrators can use this area to describe the group’s purpose, so everyone knows why they are here.'
+
+  leave_group_form:
+    cannot_leave_group: 'You cannot leave this group because you are the last administrator. You will need to choose another coordinator or deactivate the group.'
+    add_coordinator: 'Add an administrator'
